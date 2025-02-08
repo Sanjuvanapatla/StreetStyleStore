@@ -1,0 +1,58 @@
+@jwtToken = {{$dotenv JWT_TOKEN}}
+get http://localhost:3000/api/items/
+Authorization: Bearer {{jwtToken}}
+
+###
+get http://localhost:3000/api/items/4/
+Authorization: Bearer {{jwtToken}}
+
+
+###
+POST http://localhost:3000/api/items/
+Authorization: Bearer {{jwtToken}}
+Content-Type: application/json
+
+{
+"name": "Trousers", 
+"description": "Trousers available in multiple colours"
+}
+
+###
+PUT http://localhost:3000/api/items/7/
+Authorization: Bearer {{jwtToken}}
+Content-Type: application/json
+
+{
+"name": "Trousers", 
+"description": "Trousers available only few colours"
+}
+
+###
+DELETE http://localhost:3000/api/items/8/
+Authorization: Bearer {{jwtToken}}
+
+
+
+###
+
+POST http://localhost:3000/new_users/
+Authorization: Bearer {{jwtToken}}
+Content-Type: application/json
+
+{
+    "name": "Sanjay",
+    "username": "Sanjay123",
+    "password": "Sanjay@456",
+    "gender": "Male",
+    "location": "Hyderabad"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    
+    "username": "Sanjay123",
+    "password": "Sanjay@456"
+}

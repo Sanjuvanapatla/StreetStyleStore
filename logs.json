@@ -1,0 +1,197 @@
+[
+  {
+    "itemId": 6,
+    "name": "Trousers",
+    "description": "Trousers available in multiple colours",
+    "timestamp": "2025-02-08T09:22:20.836Z"
+  },
+  {
+    "timestamp": "2025-02-08T09:39:03.341Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:41:11.272Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:44:39.185Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:44:43.008Z",
+    "method": "POST",
+    "url": "/items/",
+    "requestBody": {
+      "name": "Trousers",
+      "description": "Trousers available in multiple colours"
+    }
+  },
+  {
+    "timestamp": "2025-02-08T09:46:00.257Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:46:02.316Z",
+    "method": "POST",
+    "url": "/api/items/",
+    "requestBody": {
+      "name": "Trousers",
+      "description": "Trousers available in multiple colours"
+    }
+  },
+  {
+    "timestamp": "2025-02-08T09:49:46.204Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:49:49.305Z",
+    "method": "PUT",
+    "url": "/api/items/5/",
+    "requestBody": {
+      "name": "Trousers",
+      "description": "Trousers available only few colours"
+    }
+  },
+  {
+    "timestamp": "2025-02-08T09:49:58.811Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T09:50:44.893Z",
+    "method": "PUT",
+    "url": "/api/items/7/",
+    "requestBody": {
+      "name": "Trousers",
+      "description": "Trousers available only few colours"
+    }
+  },
+  {
+    "timestamp": "2025-02-08T09:50:49.261Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T10:15:03.489Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T10:15:11.230Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T10:15:20.275Z",
+    "method": "DELETE",
+    "url": "/api/items/8/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T10:15:28.702Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T11:38:49.557Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T12:17:03.929Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T12:17:20.305Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T12:19:51.077Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T12:23:06.122Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T17:02:17.784Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T17:21:30.157Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T17:30:55.333Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T17:31:21.709Z",
+    "method": "GET",
+    "url": "/api/items/4/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T18:03:43.983Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T18:05:18.767Z",
+    "method": "DELETE",
+    "url": "/api/items/8/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T18:05:44.937Z",
+    "method": "PUT",
+    "url": "/api/items/7/",
+    "requestBody": {
+      "name": "Trousers",
+      "description": "Trousers available only few colours"
+    }
+  },
+  {
+    "timestamp": "2025-02-08T18:11:22.943Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  },
+  {
+    "timestamp": "2025-02-08T18:16:07.914Z",
+    "method": "GET",
+    "url": "/api/items/",
+    "requestBody": null
+  }
+]
