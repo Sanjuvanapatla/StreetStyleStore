@@ -71,6 +71,10 @@ const authenticateToken = (req, res, next) => {
     }
 };
 
+//Deployment Successfull
+app.get("/", (req, res) => {
+    res.send("Hello! Your deployment is successful.");
+});
 // User Registration
 app.post("/new_users/", async (req, res) => {
     const { username, name, password, location, gender } = req.body;
